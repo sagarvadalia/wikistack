@@ -27,10 +27,11 @@ router.post('/', async (req, res, next) => {
     res.redirect('/');
   } catch (error) { next(error) }
 });
-
-
 router.get('/add', (req, res, next) => {
   res.send(addPage());
+});
+router.get('/:slug', (req, res, next) => {
+  res.send(`hit dynamic route at ${req.params.slug}`);
 });
 
 
