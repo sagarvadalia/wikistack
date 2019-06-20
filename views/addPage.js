@@ -10,19 +10,16 @@ module.exports = () => layout(html`
     <div class="form-group">
       <label for="author name" class="col-sm-2 control-label">Author Name</label>
       <div class="col-sm-10">
-        <input id="author name" name="author name" type="text" class="form-control"/>
+        <input id="author name" name="authorName" type="text" class="form-control"/>
       </div>
     </div>
 
     <div class="form-group">
       <label for="title" class="col-sm-2 control-label">Author Email </label>
       <div class="col-sm-10">
-        <input id="author email" name="author email" type="text" class="form-control"/>
+        <input id="author email" name="authorEmail" type="text" class="form-control"/>
       </div>
     </div>
-
-
-
     <div class="form-group">
       <label for="title" class="col-sm-2 control-label">Page Title</label>
       <div class="col-sm-10">
@@ -33,14 +30,14 @@ module.exports = () => layout(html`
     <div class="form-group">
       <label for="page content" class="col-sm-2 control-label">Page Content</label>
       <div class="col-sm-10">
-        <input id="page content" name="page content" type="text" class="form-control"/>
+        <input id="page content" name="pageContent" type="text" class="form-control"/>
       </div>
     </div>
 
     <div class="form-group">
       <label for="page status" class="col-sm-2 control-label">Page Status</label>
       <div class="col-sm-10">
-        <input id="page status" name="page status" type="text" class="form-control"/>
+        <input id="page status" name="pageStatus" type="text" class="form-control"/>
       </div>
     </div>
     <div class="col-sm-offset-2 col-sm-10">
